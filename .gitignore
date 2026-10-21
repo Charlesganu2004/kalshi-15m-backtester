@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Cached Kalshi data and generated output (the committed report is the one exception)
+backtest/data/
+backtest/data_*/
+backtest/results/*
+!backtest/results/report.md
+backtest/results_*/
+
+# Local logs and environment files
+*.log
+*.err
+.env
+.env.*
